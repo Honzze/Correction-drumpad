@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 
 html, body {
-  background: linear-gradient(to left, #fd746c , #ff9068);
+  background: linear-gradient(to left, #fc6969 , #ff4a08);
   height: 100%;
   width: 100%;
   display: flex;
@@ -14,6 +14,7 @@ h1 {
   color: black;
   font-size: 5vw;
   letter-spacing: 6px;
+  -webkit-user-select: none;
 }
 .pad {
   width: 400px;
@@ -59,4 +60,17 @@ h1 {
   color: #fd746c;
   transform: scale(1.5);
   transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0 0 black;
+
+  margin-top:35px ;  
+}
+button:hover{
+  background-color: #000000;
+  box-shadow: 4px 4px 0 0 black;
+  color: white;
 }
